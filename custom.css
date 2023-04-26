@@ -1,0 +1,97 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+#profile {
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 0;
+}
+
+.name {
+    margin-block-end: 0.25em;
+}
+
+.tagline {
+    font-size: 1.2em;
+    margin-block-start: 0;
+    font-weight: 300;
+}
+
+.note {
+    font-style: italic;
+}
+
+.follow {
+    margin-block-start: 0;
+}
+
+.date {
+    white-space: nowrap;
+    padding-right: 1em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid var(--light);
+
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+tr>td {
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+tr:first-child>td {
+    padding-top: 0;
+}
+
+tr:last-child>td {
+    padding-bottom: 0;
+}
+
+.pubsite {
+    padding-right: 1em;
+}
+
+.me-author {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.6;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.site {
+    font-style: italic;
+}
+
+.links {
+    font-size: 0.75em;
+}
+
+.item-list td>div {
+    margin-bottom: 0.3em;
+}
+.item-list td>div:last-child {
+    margin-bottom: 0;
+}
