@@ -1,5 +1,37 @@
+:root {
+    color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+    * {
+        color: var(--dark);
+    }
+
+    html {
+        border-color: var(--dark);
+    }
+
+    body {
+        background-color: var(--light);
+    }
+
+    button, .button, .home, input {
+        background-color: var(--dark);
+        color: var(--light);
+    }
+}
+
+
 body {
     font-family: 'Quattrocento Sans', sans-serif;
+    max-width: 1000px;
+}
+
+/* Set font size for non-mobile */
+@media (min-width: 768px) {
+    body {
+        font-size: 1.2em;
+    }
 }
 
 #profile {
@@ -37,7 +69,7 @@ table {
 }
 
 tr {
-    border-bottom: 1px solid var(--light);
+    border-bottom: 1px solid var(--dark);
 
 }
 
